@@ -1,0 +1,62 @@
+.custom-search {
+    width: 250px; /* Set your desired width */
+    border-color: #eabbdc !important; /* Bluish-green border */
+  }
+  .mr-2 {
+    margin-right: 8px; /* Add margin to the right of the textbox for spacing */
+  }
+  
+  .header{
+    margin-bottom: 20px; 
+    background-image: #c71585;
+    color: #c71585;
+    background-size: cover;
+    background-position: center;
+    position: relative;  
+   
+    /*
+    background-image: linear-gradient(to right top, #ff9933, #ff8664, #ff7d94, #ff83c2, #e892e6, #ba9cfb, #7ca6ff, #00adfe, #00ace3, #00a5ac, #009964, #138808);
+    background-size: cover;
+    background-position: center;
+    position: relative;    */
+  }
+
+/* Predictive Search Results */
+.predictive-search-results {
+  position: absolute;
+  top: 100%; /* Position below the search bar */
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure it appears above other elements */
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.search-result-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.search-result-item:hover {
+  background: #f5f5f5;
+}
+
+.search-result-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.search-result-description {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.custom-bg-bluish-green {
+  background-color: #f4e545 !important; 
+}

@@ -1,0 +1,132 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+.content {
+    flex-grow: 1;
+    padding: 20px;
+  } 
+    
+/* Ensure the Banner is not affected by the gradient */
+.banner-container {
+  position: relative;
+  z-index: 1; /* Bring the Banner above the gradient */
+  background-color: white; /* Add a solid background to the Banner */
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  padding-inline: 1rem; /* Add padding to the left and right */
+  overflow: hidden;
+  border-radius: 15px; /* Match this value with the image's border-radius */
+  margin-bottom: 20px;   /* Add margin to the bottom */
+  background: white;
+  border: 1px solid #e0e0e0;
+  background: #c71585;
+  background-color: #2E8B57;
+/*
+  background-image: linear-gradient(to right top, #ff9933, #ff8664, #ff7d94, #ff83c2, #e892e6, #ba9cfb, #7ca6ff, #00adfe, #00ace3, #00a5ac, #009964, #138808);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+*/
+}
+
+.banner-img {
+  width: 50%; /* Set image width to 60% of the container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image is covered without distortion */
+  border-radius: 15px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Add a subtle shadow */
+}
+
+/* Header CSS Goes here Start */
+
+.custom-search {
+  width: 250px; /* Set your desired width */
+}
+
+.mr-2 {
+  margin-right: 8px; /* Add margin to the right of the textbox for spacing */
+}
+
+.header{
+  margin-bottom: 20px; 
+  background-image: #c71585;
+  background-color: #c71585;
+  background-size: cover;
+  background-position: center;
+  position: relative;  
+ 
+  /*
+  background-image: linear-gradient(to right top, #ff9933, #ff8664, #ff7d94, #ff83c2, #e892e6, #ba9cfb, #7ca6ff, #00adfe, #00ace3, #00a5ac, #009964, #138808);
+  background-size: cover;
+  background-position: center;
+  position: relative;    */
+}
+
+/* Predictive Search Results */
+.predictive-search-results {
+position: absolute;
+top: 100%; /* Position below the search bar */
+left: 0;
+right: 0;
+background: white;
+border: 1px solid #ddd;
+border-radius: 4px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+z-index: 1000; /* Ensure it appears above other elements */
+max-height: 300px;
+overflow-y: auto;
+}
+
+.search-result-item {
+padding: 10px;
+border-bottom: 1px solid #eee;
+cursor: pointer;
+transition: background 0.2s;
+}
+
+.search-result-item:hover {
+background: #f5f5f5;
+}
+
+.search-result-title {
+font-weight: bold;
+color: #333;
+}
+
+.search-result-description {
+color: #666;
+font-size: 0.9em;
+}
+
+
+
+/*part 2*/
+/* Custom bluish-green background for Navbar */
+.header {
+  background-color: #2E8B57; /* Bluish-green shade */
+}
+
+/* Bluish-green border for search bar */
+.custom-search {
+  border-color: #2E8B57 !important;
+}
+
+/* Bluish-green color for cart icon and text */
+#cart-icon {
+  color: #2E8B57;
+}
+
+/* Bluish-green background for predictive search results */
+.predictive-search-results {
+  background-color: #E0F7FA; /* Light bluish-green */
+  border: 1px solid #2E8B57; /* Bluish-green border */
+}
+
+/* Header CSS Goes here End */

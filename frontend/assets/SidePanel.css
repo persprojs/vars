@@ -1,0 +1,79 @@
+.categories-menu {
+  text-align: left;
+  font-weight: bold;
+  padding-left: 0;
+  margin-left: 0;
+  width: 270px;
+  height: 100%;
+  background-color: #cbd3da; /* Light gray background */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Add padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.categories-menu h5 {
+  color: #28a745; /* Green for the heading */
+  margin-bottom: 15px; /* Add spacing */
+}
+
+.categories-menu ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.categories-menu li {
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+
+/* Submenu styling */
+.submenu {
+  padding-left: 1rem;
+}
+
+.submenu ul {
+  padding-left: 1rem;
+}
+
+/* Button styling */
+.categories-menu .btn-link {
+  text-decoration: none;
+  color: #007bff; /* Blue for links */
+  padding-left: 0;
+  font-weight: bold; /* Make links bold */
+}
+
+.categories-menu .btn-link:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+/* ListGroup.Item styling */
+.categories-menu .list-group-item {
+  border: none; /* Remove default border */
+  background-color: transparent; /* Transparent background */
+  padding: 8px 0; /* Add padding */
+}
+
+/* Collapse button styling */
+.categories-menu .btn-link[aria-expanded="true"] {
+  color: #fd7e14; /* Orange for expanded buttons */
+}
+
+/* Parent items - Unclickable */
+.categories-menu .parent-item {
+  cursor: default !important; /* Disable pointer cursor */
+  text-decoration: none !important; /* Remove underline */
+  color: inherit !important; /* Inherit text color */
+}
+
+/* Child items - Clickable */
+.categories-menu .submenu li {
+  cursor: pointer; /* Enable pointer cursor for child items */
+  text-decoration: underline; /* Underline clickable links */
+  color: #007bff; /* Blue for clickable links */
+}
+
+.categories-menu .submenu li:hover {
+  color: #0056b3; /* Darker blue on hover */
+}

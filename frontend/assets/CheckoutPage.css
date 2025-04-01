@@ -1,0 +1,47 @@
+/* CheckoutPage.css */
+.checkout-page {
+  padding: 20px;
+}
+
+/* Customer Details Card */
+.customer-details-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #e3f2fd !important; /* Light blue shade for Customer Details */
+}
+
+.customer-details-card h5 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Order Summary Card */
+.order-summary-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #e3f2fd !important; /* Light blue shade for Order Details */
+}
+
+.order-summary-card h5 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Payment Options Card */
+.payment-options-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa !important; /* Light gray for Payment Options */
+}
+
+.payment-options-card h5 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.payment-options-card .btn {
+  margin-bottom: 10px;
+}

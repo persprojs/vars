@@ -1,0 +1,50 @@
+/* Container for Product Grid */
+.product-grid-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  /* Individual Product Card */
+  .product-card {
+    width: 200px; /* Set a fixed width for each card */
+    height: 200px; /* Allow height to adjust based on content */
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #f8f9fa; /* Custom background color */
+  }
+  
+  
+  /* Hover Effects */
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Custom Product Image Styling */
+  .product-img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+
+  /* ProductGrid.css */
+.product-img {
+  width: 100%;
+  height: 200px; /* Adjust as needed */
+  object-fit: contain; /* Ensures the image fits within the container */
+}
+  
+  /* Custom Product Title Styling */
+  .product-title {
+    font-size: 1.2rem;
+    color: #343a40;
+  }
+  
+  .product-grid-container {
+    padding: 20px;
+  }
+  
+  .product-card {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
